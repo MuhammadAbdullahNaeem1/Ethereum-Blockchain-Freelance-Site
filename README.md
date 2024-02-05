@@ -24,9 +24,10 @@ npm install -global truffle
 ```
 
 To install project requirements, run the following command in the project root directory:
+
 ```
 npm install
-``
+```
 
 Compile and deploy the contracts:
 ```
@@ -35,13 +36,15 @@ truffle migrate --reset
 ```
 
 Once the contract is added to the chain, test it with:
+
 ```
 truffle test
 ```
-
 ### Running the Web Interface
 
 To launch the web interface at `http://localhost:3000/`, use the following command in the project directory. The interface connects to the smart contract deployed on the `ropsten` test network:
+
+
 ```
 npm start
 ```
