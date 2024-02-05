@@ -26,18 +26,7 @@ npm install -global truffle
 To install project requirements, run the following command in the project root directory:
 ```
 npm install
-```
-
-### Deploying the Contract to Ganache Network
-
-Run Ganache-cli network with the provided configuration in `truffle-config.js`:
-```
-development: {
-    host: "127.0.0.1",
-    port: 8545,
-    network_id: "*",
-},
-```
+``
 
 Compile and deploy the contracts:
 ```
